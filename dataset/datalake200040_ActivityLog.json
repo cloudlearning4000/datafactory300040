@@ -1,9 +1,14 @@
 {
-	"name": "datalake200040_ActivityLog_CSV",
+	"name": "datalake200040_ActivityLog",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "datalake200040",
 			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"filename": {
+				"type": "string"
+			}
 		},
 		"annotations": [],
 		"type": "DelimitedText",
